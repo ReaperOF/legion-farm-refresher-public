@@ -2,7 +2,7 @@
   "name": "legionfarm-D2-refresher",
   "short_name": "ld2re",
   "author": "Буль",
-  "version": "5.8.0",
+  "version": "5.8.1",
   "manifest_version": 2,
   "background": {
     "scripts": [
