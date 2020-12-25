@@ -2,7 +2,7 @@
   "name": "legionfarm-D2-refresher",
   "short_name": "ld2re",
   "author": "Буль",
-  "version": "6.2.0",
+  "version": "6.3",
   "manifest_version": 2,
   "background": {
     "scripts": [
@@ -16,6 +16,7 @@
         "ui.js"
       ],
       "matches": [
+        "https://legionfarm.com/admin/booster-area/load-order-notification",
         "https://legionfarm.com/admin/booster-area/*new-deals*SellerOrderSearch*game_tag*=D2*SellerOrderSearch*affiliation*=PC*",
         "https://legionfarm.com/admin/booster-area/*new-deals*SellerOrderSearch*game_tag*=D2*SellerOrderSearch*affiliation*=PS4*",
         "https://legionfarm.com/admin/booster-area/*new-deals*SellerOrderSearch*game_tag*=D2*SellerOrderSearch*affiliation*=XBOX*"
