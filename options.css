@@ -1,0 +1,147 @@
+html {
+    background-color: #191b1b;
+    color: #e9e9e9;
+    display: flex;
+    font-size: 150%;
+}
+
+body {
+    margin: auto;
+}
+
+#addNew {
+    height: 2vh;
+    width: 2vh;
+    outline: none;
+    margin: auto;
+}
+
+/*find out if CSS file can be linked to this options page*/
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    margin: 2vh 0;
+    padding: 2vh;
+    background-color: #2e3030;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    background-color: #4a87c8;
+    color: white;
+}
+
+input {
+    display: block;
+}
+
+.addComp {
+    display: block;
+}
+
+.delComp {
+    display: inline-block;
+}
+
+.recipe {
+    display: inline-block;
+}
+
+
+input[type="number"] {
+    width: 3vh;
+}
+
+h1 {
+    padding: 0 2vh;
+}
+
+.comps {
+    display: flex;
+    justify-content: flex-end;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.comps>p {
+    display: inline-flex;
+    padding: 1vh 2vh;
+    margin: 0, 1vh;
+}
+
+.comps>p:last-child {
+    width: 1vh;
+}
+
+.container {
+    background-color: #323333;
+    padding: 3vh;
+
+}
+
+.actionsContainer>p {
+    margin: 0;
+}
+
+li>h1 {
+    text-align: left;
+}
+
+ul {
+    margin: 1vh;
+    background-color: #424444;
+    list-style-type: none;
+    padding: 2vh;
+}
+
+#recipes {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    /*to disable the default appearance of radio button*/
+    -moz-appearance: none;
+}
+
+.rulesContainer {
+    position: relative;
+    border-style: solid solid solid solid;
+    border-width: 2px;
+    border-color: rgb(245, 114, 114);
+    padding: 10px;
+    margin: 15px;
+}
+
+.delRule {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    margin: 1vh;
+}
+
+.actionSet {
+    position: relative;
+}
+
+.delAction {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    margin: 1vh;
+}
+
+input:read-only {
+    background-color: rgba(200, 200, 200, 0.4);
+}
+
+.editContainer {
+    margin: 0 1vh;
+    padding: 0 2vh;
+}

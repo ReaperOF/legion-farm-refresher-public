@@ -1,9 +1,11 @@
 {
-  "name": "legionfarm-D2-refresher",
-  "short_name": "ld2re",
+  "name": "LFC-Refresher",
+  "short_name": "LFC-Re",
   "author": "Буль",
-  "version": "6.6.6",
+  "version": "7.1.5",
   "manifest_version": 2,
+  "description": "Булькает...",
+  "options_page": "options.html",
   "background": {
     "scripts": [
       "refresher.js"
@@ -23,5 +25,8 @@
   ],
   "permissions": [
     "storage"
-  ]
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
 }
