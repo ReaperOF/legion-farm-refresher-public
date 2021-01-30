@@ -2,7 +2,7 @@
   "name": "LFC-Refresher",
   "short_name": "LFC-Re",
   "author": "Буль",
-  "version": "7.1.5",
+  "version": "7.1.7",
   "manifest_version": 2,
   "description": "Булькает...",
   "options_page": "options.html",
